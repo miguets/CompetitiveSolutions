@@ -1,28 +1,24 @@
-
-#include <bits/stdc++.h>
-
+#include <iostream>
+#include<string>
 using namespace std;
 
-auto main()->int{
-    int n, suma =0;
-    vector<int> c;
-    cin>>n;
-    for(int i = 0; i<n; i++){
-        suma =0;
-        for(int j=0; j<4; j++){
-            int a;
-            cin>>a;
-            suma+=a;
-        }
-        if(suma%3 == 0){
-            c.push_back(1);
-        }
-        else{
-            c.push_back(0);
-        }
-    }
-    for(int i=0; i<n; i++){
-        if(c[i]==1)cout<<"YES"<<"\n";
-        else cout<<"NO"<<"\n";
-    }
+int main() {
+ int n;
+ cin>>n;
+ string s;
+ cin>>s;
+ int r=0;
+ int g=0;
+ int b=0;
+ for(int i=1;i<n;i++){
+ 	if(s[i-1]==s[i])
+ 	if(s[i]=='R')++r;
+ 	else if(s[i]=='G'){
+ 		++g;
+ 	}
+ 	else if(s[i]=='B')
+ 	++b;
+ }
+ cout<<r+g+b;
+  	return 0;
 }
