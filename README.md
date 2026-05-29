@@ -1,7 +1,15 @@
-# CompetitiveSolutions
-Some solutions for problems of codeforces &amp; omegaup or variety <br>
-<a href="https://github.com/miguets/CompetitiveSolutions/tree/master/Codeforces/training"> Codeforces <br>
-<a href="https://github.com/miguets/CompetitiveSolutions/tree/master/HackerRank/training"> HackerRank <br>
-<a href="https://github.com/miguets/CompetitiveSolutions/tree/master/omegaup/training"> Omegaup <br>
-<br>
-<img src="https://github.com/miguets/CompetitiveSolutions/assets/73564090/dc8bc747-59fb-400e-bf9d-5b14a82ae2bd" height="150" width="150">
+# Competitive Solutions
+
+A curated collection of algorithmic solutions for various competitive programming challenges. This repository serves as an archive of problem-solving techniques, data structure implementations, and mathematical approaches.
+
+## Supported Platforms
+
+The solutions are organized by the platform where the problems are originally hosted. You can navigate the directories using the links below:
+
+* [Codeforces](https://github.com/miguets/CompetitiveSolutions/tree/master/Codeforces/training)
+* [HackerRank](https://github.com/miguets/CompetitiveSolutions/tree/master/HackerRank/training)
+* [OmegaUp](https://github.com/miguets/CompetitiveSolutions/tree/master/omegaup/training)
+
+## Repository Structure
+
+Each platform directory contains the source code for the accepted solutions. The files are named according to the problem's ID or title for quick reference and searchability.
